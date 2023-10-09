@@ -4,6 +4,10 @@
 
 2. `npm run dev` or `yarn dev`
 
+## 关于 `glsl-module` 的中文文档
+
+[doc](./doc.md)
+
 ## config about [`glsl-module-loader`](https://github.com/z-juln/glsl-module-loader)
 
 look loader: [`glsl-module-loader`](https://github.com/z-juln/glsl-module-loader)
