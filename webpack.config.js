@@ -40,7 +40,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    port: 8080,
+    port: 'auto',
     hot: true,
   },
 };

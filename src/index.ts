@@ -3,10 +3,7 @@ import vertGlsl from './shader/vert.glsl';
 import fragGlsl from './shader/frag.glsl';
 import { getWebGLRenderingContext, glLog, initShader } from './shader-help';
 
-console.log({
-  vertGlsl,
-  fragGlsl,
-})
+console.log('===output fragGlsl: \n\n', fragGlsl);
 
 const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 const { gl } = getWebGLRenderingContext(canvas);
