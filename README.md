@@ -6,6 +6,8 @@
 
 ## config about [`glsl-module-loader`](https://github.com/z-juln/glsl-module-loader)
 
+look loader: [`glsl-module-loader`](https://github.com/z-juln/glsl-module-loader)
+
 look config: [webpack.config.js](./webpack.config.js)
 
 look sourceCode: [src/shader/frag.glsl](./src/shader/frag.glsl)
