@@ -18,13 +18,13 @@ src/shader/frag.glsl
 #extension GL_GOOGLE_include_directive : enable
 precision highp float;
 
-// #pragma glslify: noise = require('glsl-noise/simplex/3d.glsl')
+// #pragma glslify: noise = require('glsl-noise/simplex/3d')
 // glslify 导入 utils_double
 #pragma glslify: utils_double = require('./utils/utils-double')
 #pragma glslify: utils_add = require('./utils/utils-add')
 
-// #include <glsl-noise/simplex/3d.glsl>
-#include <./utils/utils-common.glsl>
+// #include <glsl-noise/simplex/3d>
+#include <./utils/utils-common>
 
 #define PI 3.14
 
@@ -57,9 +57,9 @@ highp float utils_double(float n) {
 
 glslify导入导出: 看 `frag.glsl` 和 `utils-double.glsl` 中的 `#pragma glslify` 语法.
 
-这里的 `#include <./utils/utils-common.glsl>` 是 `glsl-module` 的用法, 会把 `./utils/utils-common.glsl` 文件的代码直接替换到该行.
+这里的 `#include <./utils/utils-common>` 是 `glsl-module` 的用法, 会把 `./utils/utils-common.glsl` 文件的代码直接替换到该行.
 
-glslify 和 glsl-module 一样, 都支持 `node-resolve` 的路径解析功能: `#include <glsl-noise/simplex/3d.glsl>` 对应路径: `node_modules/glsl-noise/simplex/3d.glsl`. glslify 同上.
+glslify 和 glsl-module 一样, 都支持 `node-resolve` 的路径解析功能: `#include <glsl-noise/simplex/3d>` 对应路径: `node_modules/glsl-noise/simplex/3d.glsl`. glslify 同上.
 
 ## webpack配置
 

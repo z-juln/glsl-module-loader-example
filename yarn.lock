@@ -2307,10 +2307,10 @@ glsl-inject-defines@^1.0.1:
     glsl-token-string "^1.0.1"
     glsl-tokenizer "^2.0.2"
 
-glsl-module-loader@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/glsl-module-loader/-/glsl-module-loader-1.0.3.tgz#f051046f5dab3ca5a97fa331e4a68f22210d92cd"
-  integrity sha512-dvnuRARI6hwX3+S6ZsP0G/bFsR0lt7ckYQeSx9o3qJ4OXwQCy5lVTcMwgmbeVt/2mDUZp0TZYpeI3xdfa3aVIw==
+glsl-module-loader@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/glsl-module-loader/-/glsl-module-loader-1.0.4.tgz#49bf0402f7b787fa36cf69f5ab8de53e490dc0dc"
+  integrity sha512-R4YZX2z7qP1PiL/UDkM5ypoMHgTQ4rdjNN60ER2wEg8VfGwt3JdS7s8RaNPIAPslWPnI1Z4RgHIw1xa7eerY+g==
   dependencies:
     loader-utils "^2.0.0"
 

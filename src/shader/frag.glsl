@@ -2,12 +2,12 @@
 #extension GL_GOOGLE_include_directive : enable
 precision highp float;
 
-// #pragma glslify: noise = require('glsl-noise/simplex/3d.glsl')
+// #pragma glslify: noise = require('glsl-noise/simplex/3d')
 #pragma glslify: utils_double = require('./utils/utils-double')
 #pragma glslify: utils_add = require('./utils/utils-add')
 
-// #include <glsl-noise/simplex/3d.glsl>
-#include <./utils/utils-common.glsl>
+// #include <glsl-noise/simplex/3d>
+#include <./utils/utils-common>
 
 #define PI 3.14
 
