@@ -8,4 +8,6 @@
 
 look config: [webpack.config.js](./webpack.config.js)
 
+look sourceCode: [src/shader/frag.glsl](./src/shader/frag.glsl)
+
 look output: ![console](./glsl-module-loader.png)
